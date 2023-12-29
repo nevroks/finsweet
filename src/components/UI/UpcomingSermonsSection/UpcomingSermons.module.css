@@ -1,0 +1,57 @@
+.UpcomingSermons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 110px;
+}
+.UpcomingSermons button{
+    background-color: var(--black-color);
+    color: var(--skin-color);
+}
+.UpcomingSermons button:hover{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.UpcomingSermons .Label01::after{
+
+}
+.UpcomingSermons_Content{
+    display: flex;
+    max-height: 512px;
+
+}
+.iwannacry{
+    padding: 32px 32px 61px 89px;
+    background-color: var(--lighter-skin-color);
+}
+.UpcomingSermons_Content::after{
+    content: url("../../../sourses/upcomingSermons/a-man-and-woman-wearing-angel-costumes-8513040.svg");
+}
+.UpcomingEvent_header{
+    display: flex;
+    align-items: flex-end;
+    columns: 2;
+    column-gap: 176px;
+    margin-bottom: 18px;
+}
+.UpcomingEvent_ContentSection{
+
+}
+.UpcomingEvent_ContentSection h5{
+    text-align: inherit;
+    margin-bottom: 18px;
+}
+.ViewAllSermons{
+    position: relative;
+    left: 536px;
+    display: flex;
+    margin: 48px 110px 0px;
+}
+.ViewAllSermons::after{
+    top: 6px;
+    left: 11px;
+    position: relative;
+    content: url("../../../sourses/imgs/arrow.svg");
+}

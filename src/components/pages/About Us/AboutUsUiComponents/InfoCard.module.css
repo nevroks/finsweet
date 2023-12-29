@@ -1,0 +1,29 @@
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 56px;
+    max-width: 302px;
+    max-height: 366px;
+    background-color: var(--gray-color);
+    text-align: center;
+}
+.infoCard img{
+    max-width: 152px;
+    max-height: 152px;
+}
+.infoCard h5{
+    min-width: 189px;
+    margin: 26px 0px 10px;
+}
+.infoCard p{
+    margin-bottom: 16px;
+}
+
+
+
+.social_medias{
+    display: flex;
+    column-gap: 20px;
+}

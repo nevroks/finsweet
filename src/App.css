@@ -1,0 +1,207 @@
+:root{
+    --black-color:#161722;
+    --skin-color:#FFD2A4;
+    --lighter-skin-color:#FFF5EB;
+    --gray-color:#F5F2F0;
+    --white-color:#FFF;
+}
+html,body{
+    width: 100vw;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+h1,h2,h4,h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+h1{
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -0.64px;
+}
+h2{
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.48px;
+}
+h4{
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.32px;
+}
+h5{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black-color);
+}
+.Label01{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--black-color);
+}
+
+.Label02{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Label03{
+    color: var(--black-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Cap03{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    color: var(--skin-color);
+}
+@media (max-width: 1200px) {
+    h1{
+        font-size: 61px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h4{
+        font-size: 29px;
+    }
+    h5{
+        font-size: 21px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .Label01{
+        font-size: 21px;
+    }
+    .Label02{
+        font-size: 13px;
+    }
+    .Label03{
+        font-size: 15px;
+    }
+    .Cap03{
+        font-size: 9px;
+    }
+}
+@media (max-width: 900px) {
+    h1{
+        font-size: 58px;
+        letter-spacing: -0.80px;
+    }
+    h2{
+        font-size: 42px;
+        letter-spacing: -0.60px;
+    }
+    h4{
+        font-size: 26px;
+        letter-spacing: -0.45px;
+    }
+    h5{
+        font-size: 18px;
+        letter-spacing: -0.35px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .Label01{
+        font-size: 18px;
+    }
+    .Label02{
+        font-size: 10px;
+    }
+    .Label03{
+        font-size: 12px;
+    }
+    .Cap03{
+        font-size: 8px;
+    }
+}@media (max-width: 600px) {
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 39px;
+    }
+    h4{
+        font-size: 23px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 8px;
+    }
+    .Label01{
+        font-size: 15px;
+    }
+    .Label02{
+        font-size: 8px;
+    }
+    .Label03{
+        font-size: 9px;
+    }
+    .Cap03{
+        font-size: 7px;
+    }
+}@media (max-width: 320px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    .Label01 {
+        font-size: 12px;
+    }
+
+    .Label02 {
+        font-size: 7px;
+    }
+
+    .Label03 {
+        font-size: 8px;
+    }
+
+    .Cap03 {
+        font-size: 6px;
+    }
+}

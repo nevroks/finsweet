@@ -1,0 +1,19 @@
+.Mybutton{
+    background-color: var(--skin-color);
+    border-radius: 12px;
+    color: var(--black-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.Mybutton:hover{
+    background-color: #F2C79B;
+}
+@media (max-width: 900px) {
+    button{
+
+    }
+
+}

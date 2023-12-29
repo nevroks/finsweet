@@ -1,0 +1,27 @@
+.sermon_header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../sourses/pages/SermonPage/headerBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+    padding: 110px;
+}
+.sermon_header p{
+    margin: 50px 0px 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ViewAllEvents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.ViewAllEvents_events{
+    display: flex;
+    margin-top: 64px;
+    column-gap: 24px;
+}

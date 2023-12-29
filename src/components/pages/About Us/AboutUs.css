@@ -1,0 +1,95 @@
+.aboutUs_Heading{
+    display: flex;
+    background-image: url("../../../sourses/pages/AboutusPage/nature.svg");
+    background-size: cover;
+    min-height: 420px;
+    align-items: center;
+}
+.aboutUs_Heading div{
+    padding-left: 110px;
+}
+.aboutUs_Heading p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.WelcomeToOurChurch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.WelcomeToOurChurch .Label02{
+    margin: 130px 0px 18px;
+}
+.WelcomeToOurChurch_ImgContainer{
+    display: flex;
+
+    column-gap: 24px;
+    align-items: center;
+}
+.ourMission{
+    position: relative;
+    right: 5px;
+    display: flex;
+    letter-spacing: -0.32px;
+}
+.ourMission div{
+    max-width: 371px;
+}
+.ourMission h4{
+    margin-bottom: 16px;
+}
+.bennefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.bennefits h2{
+    text-align: center;
+    margin: 16px 0px 64px;
+}
+.bennefits_contentSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bennefits_contentSection h4{
+    margin-bottom: 16px;
+}
+
+.bennefits_contentSection div{
+    display: flex;
+    margin-bottom: 96px;
+}
+.bennefits_contentSection div div{
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.bennefits_contentSection p{
+    max-width: 500px;
+}
+.churchMembers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.churchMembers h2{
+    margin: 16px 0px 64px;
+}
+.churchMembers_members{
+    display: flex;
+    column-gap: 24px;
+}
+
+

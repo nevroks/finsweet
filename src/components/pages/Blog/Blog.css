@@ -1,0 +1,58 @@
+.blog{
+    background-color: var(--gray-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourBlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 0;
+}
+.ourBlog h2{
+    margin: 16px 0 64px;
+}
+.mostRecentPost{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 48px;
+    background-color: var(--white-color);
+    margin: 0 110px 128px;
+    padding: 56px 85px 56px 56px;
+}
+.anegri{
+    display: flex;
+    justify-content: space-between;
+}
+.mostRecentPost_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 519px;
+}
+.mostRecentPost_content h4{
+    margin: 12px 0px 16px;
+}
+.mostRecentPost_content button{
+    margin-top: 32px;
+}
+.allBlogPosts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.allBlogPosts h2{
+    margin-bottom: 80px;
+}
+.allBlogPosts_posts{
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    column-gap: 24px;
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 24px;
+}

@@ -1,0 +1,42 @@
+.infoCard{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-width: 420px;
+    min-height: 380px;
+    background-color: var(--lighter-skin-color);
+    padding-top: 80px;
+}
+.infoCard::after{
+    position: absolute;
+    bottom: 0px;
+    content: '';
+    width: 100%;
+    min-height: 16px;
+    background-color: var(--skin-color);
+}
+.infoCard img{
+    margin-left: 80px;
+}
+.infoCard p{
+    width: 251px
+}
+.infoCard h4{
+    margin: 0px 0px 20px 80px;
+}
+.infoCard img{
+    background-color: var(--skin-color);
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 90px;
+    margin-bottom: 26px;
+}
+@media (max-width: 1300px) {
+    .infoCard{
+        min-width: 360px;
+    }
+    .infoCard::after{
+
+    }
+}

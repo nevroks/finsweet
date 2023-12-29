@@ -1,0 +1,25 @@
+.BlogPostCard{
+    background-color: var(--white-color);
+    max-width: 302px;
+}
+.BlogPostCard::after{
+    position: relative;
+    display: block;
+    bottom: 0px;
+    content: '';
+    height: 16px;
+    width: 0%;
+    background-color: var(--skin-color);
+    transition: width 0.9s;
+}
+.BlogPostCard:hover::after{
+    width: 100%;
+}
+.BlogPostCard_content{
+    padding: 48px 32px 0px 32px;
+
+}
+.BlogPostCard_content h5{
+    max-width: 218px;
+    margin: 16px 0;
+}

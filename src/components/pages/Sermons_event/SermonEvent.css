@@ -1,0 +1,125 @@
+.sermonEvent{
+    background-color: var(--gray-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 0;
+}
+.howToTrulyTrustSomeone{
+    display: flex;
+    column-gap: 128px;
+}
+.howToTrulyTrustSomeone_info{
+    max-width: 630px;
+}
+.howToTrulyTrustSomeone_info .Cap03{
+    margin: 32px 0 16px;
+}
+.howToTrulyTrustSomeone_info h2{
+    margin-bottom: 16px;
+}
+.howToTrulyTrustSomeone_info div{
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+
+}
+.howToTrulyTrustSomeone_info div p{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.howToTrulyTrustSomeone_info div::before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 120px;
+    margin-right: 19px;
+    background-color: var(--skin-color);
+}
+.howToTrulyTrustSomeone_form{
+    display: flex;
+    padding: 40px 70px 40px 40px;
+    flex-direction: column;
+    background-color: var(--white-color);
+    max-width: 522px;
+    max-height: 444px;
+}
+.howToTrulyTrustSomeone_form h4{
+    margin-bottom: 32px;
+}
+.howToTrulyTrustSomeone_formInfo{
+    display: flex;
+}
+.howToTrulyTrustSomeone_formInfo div{
+    display: flex;
+    align-items: flex-start;
+
+}
+.howToTrulyTrustSomeone_formInfo img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.howToTrulyTrustSomeone_formInfo p{
+    max-width: 184px;
+}
+.howToTrulyTrustSomeone_form_input{
+    max-height: 61px;
+    margin-bottom: 32px;
+    position: relative;
+}
+.howToTrulyTrustSomeone_form_input::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: var(--black-color);
+    opacity: 0.2;
+    height: 2px;
+    bottom: 0;
+}
+.howToTrulyTrustSomeone_form_input p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--black-color);
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+.howToTrulyTrustSomeone_form_input input{
+    margin-bottom: 8px;
+}
+.howToTrulyTrustSomeone_form_input input::-webkit-input-placeholder{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--black-color);
+}
+.UpcomingSermons{
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.UpcomingSermons h2{
+    margin-bottom: 64px;
+}
+.UpcomingSermons_Content{
+    display: flex;
+    column-gap: 24px;
+}
+.UpcomingSermons_Content div{
+    background-color: var(--white-color);
+}
+
+
+
+
+
+

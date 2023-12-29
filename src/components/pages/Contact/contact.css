@@ -1,0 +1,61 @@
+.Contact_header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../sourses/pages/ContactPage/6liebVeAfrY.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 483px;
+    justify-content: center;
+    padding-left: 110px;
+}
+.Contact_header p{
+    color: var(--skin-color);
+    margin-bottom: 16px;
+}
+.Contact_header h2{
+    max-width: 419px;
+    color: var(--white-color);
+}
+.Contact_content{
+    display: flex;
+    background-color: var(--gray-color);
+    justify-content: center;
+    align-items: center;
+    column-gap: 128px;
+    padding: 128px 0;
+}
+.Contact_content_form{
+    position: relative;
+    right: 110px;
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+}
+.Contact_content_form h5{
+    margin-bottom: 32px;
+}
+.Contact_content_form input{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 64px;
+    background-color: var(--white-color);
+    margin-bottom: 12px;
+}
+::-webkit-input-placeholder{
+    position: absolute;
+    top: 21px;
+    left: 20px;
+}
+.Contact_content_infoAddress,.Contact_content_infoDetails h5{
+    max-width: 263px;
+    margin: 8px 0 32px;
+}
+.Contact_content_infoSocmedias{
+    display: flex;
+    column-gap: 32px;
+    columns: 3;
+    margin-top: 8px;
+}
