@@ -2,8 +2,8 @@
 # Описание проекта
 
 Этот проект посвящен вёрстке сайта. Здесь собраны файлы и код, необходимые для создания визуального представления веб-страницы с использованием <strong>HTML<strong/>, <strong>CSS<strong/> и <strong>JS<strong/>.
-Тут присутвуют слайдеры,анимации написанные через js(там где нужно) и css, использована библеотка <strong>YoutubeLightBox<strong/> для встройки видео с Ютуба(Оригинальнео видео небыло в макете),и реализован фильтр на нативном js.<br/>
-Макет: <a href="https://www.figma.com/file/zjh38OZZn2JYBrUKrVvfWW/Createx-Marathon---info-(Copy)?type=design&node-id=0-1&mode=design">Ссылка на макет в фигме<a/>
+Тут присутвуют анимации написанные через js(там где нужно) и css, использована библеотка <strong>ReactJs<strong/> (даже не спрашивайте зачем тогда мне просто хотелось пописать на реакте).<br/>
+Макет: <a href="[https://www.figma.com/file/zjh38OZZn2JYBrUKrVvfWW/Createx-Marathon---info-(Copy)?type=design&node-id=0-1&mode=design](https://www.figma.com/file/VefRPNfL7syS92Ah131AVN/Client-first-Template-10---Church-(Community)-(Copy)?type=design&node-id=0-1&mode=design)">Ссылка на макет в фигме<a/>
 
 ## Установка
 
